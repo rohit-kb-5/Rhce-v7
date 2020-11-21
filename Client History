@@ -1,0 +1,369 @@
+3  vim /etc/samba/smb.conf
+    4  hostname
+    5  hostnamectl set-hostname client
+    6  hostname
+    7  reboot
+    8  vim /etc/fstab
+    9  vim /root/sec
+   10  mount -o guest //192.168.233.142/myshare1 /rohit 
+   11  mkdir /test
+   12  mount -o guest //192.168.233.142/myshare1 /test 
+   13  man mount.cifs
+   14  vim /etc/fstab
+   15  mount -a
+   16  df -hT
+   17  su - rohit
+   18  vim /etc/passwd
+   19  man mount.cifs
+   20  vim /etc/fstab
+   21  vim /root/sec
+   22  mount -o guest //192.168.233.142/myshare1 /test 
+   23  vim /root/sec
+   24  mount -o guest //192.168.233.142/myshare1 /test 
+   25  df -hT
+   26  vim /etc/fstab
+   27  mount -a
+   28  df -hT
+   29  cd /test
+   30  ls
+   31  cd /test
+   32  mount -o guest //192.168.233.142/myshare1 /test 
+   33  mount -a
+   34  df -hT
+   35  umount -a
+   36  mount -a
+   37  df -hT
+   38  vim /etc/fstab
+   39  mount -a
+   40  df -hT
+   41  mount -o guest //192.168.233.142/myshare1 /test 
+   42  man mount.cifs
+   43  df -hT
+   44  vim /etc/fstab
+   45  man $VAR
+   46  man VAR
+   47  man $
+   48  man shell
+   49  man 
+   50  echo $SHELL
+   51  echo $VAR
+   52  man echo
+   53  man usermod
+   54  hostname
+   55  hostnamectl set-hostaname desktop1.example.com
+   56  hostnamectl set-hostname desktop1.example.com
+   57  hostname
+   58  exit
+   59  hostname
+   60  ip a
+   61  rpm -q samba-client
+   62  rpm -q cifs-utils fs
+   63  rpm -q cifs-utils 
+   64  cat /root/sec
+   65  vim /root/sec
+   66  vim /etc/fstab
+   67  cd /
+   68  ls
+   69  mkdir /test
+   70  ls
+   71  mount -a
+   72  vim /etc/fstab
+   73  mount -a
+   74  vim /etc/fstab
+   75  mount -a
+   76  df -h
+   77  cd /test
+   78  ls
+   79  touch rohit
+   80  cifscreds add server1.example.com -u samual
+   81  su - student
+   82  su - 
+   83  su - samual
+   84  cd /
+   85  cifscreds add server1.example.com -u samual
+   86  vim /etc/fstab
+   87  cifscreds add 192.168.233.148 -u samual
+   88  vim /etc/hosts
+   89  ip a
+   90  vim /etc/hosts
+   91  cifscreds add server1.example.com -u samual
+   92  cifscreds update
+   93  cifscreds update -u samual
+   94  cifscreds update -u samual -d server1.example.com
+   95  cifscreds add server1.example.com -u samual
+   96  cifscreds test/
+   97  su - samual
+   98  man mount.cifs
+   99  ls
+  100  cd /test
+  101  ls
+  102  exit
+  103  ls
+  104  cd /test
+  105  ls
+  106  vim rohit
+  107  su - rohit
+  108  umount -a
+  109  df -h
+  110  umount 
+  111  umount /test
+  112  mount -a
+  113  reboot
+  114  ip a
+  115  vim /root/condition
+  116  vim /root/condition.sh
+  117  sh /root/condition.sh
+  118  sh /root/condition.sh Linux
+  119  sh /root/condition.sh Fedora
+  120  sh /root/condition.sh a
+  121  vim /root/condition.sh
+  122  sh /root/condition.sh a
+  123  sh /root/condition.sh
+  124  vim /root/condition.sh
+  125  sh /root/condition.sh
+  126  vim /root/condition.sh
+  127  sh /root/condition.sh
+  128  vim /root/condition.sh
+  129  sh /root/condition.sh Linux
+  130  sh /root/condition.sh linux
+  131  vim /root/condition.sh
+  132  sh /root/condition.sh linux
+  133  sh /root/condition.sh Linux
+  134  sh /root/condition.sh Fedora
+  135  vim /root/condition.sh
+  136  sh /root/condition.sh Fedora
+  137  vim /root/condition.sh
+  138  vim /root/userauto
+  139  vim /root/userauto.sh
+  140  vim test.sh
+  141  sh test.sh
+  142  vim users
+  143  sh test.sh users
+  144  vim /etc/groups
+  145  vim /etc/group
+  146  sh test.sh users
+  147  vim users
+  148  vim test.sh
+  149  sh test.sh users
+  150  vim /etc/group
+  151  sh test.sh 
+  152  sh test.sh aa
+  153  sh test.sh rohit
+  154  sh test.sh users
+  155  vim test.sh
+  156  sh test.sh users
+  157  vim test.sh
+  158  sh test.sh users
+  159  vim test.sh
+  160  vim /etc/passwd
+  161  vim test.sh
+  162  sh test.sh users
+  163  vim test.sh
+  164  sh test.sh users
+  165  vim test.sh
+  166  vim users
+  167  sh test.sh users
+  168  vim /etc/passwd
+  169  vim test.sh
+  170  sh test.sh users
+  171  vim users
+  172  sh test.sh users
+  173  vim users
+  174  vim test.sh
+  175  vim users
+  176  sh test.sh users
+  177  vim test.sh
+  178  sh test.sh users
+  179  vim test.sh
+  180  vim /root/userauto.sh
+  181  sh /root/userauto.sh users
+  182  vim /root/userauto.sh
+  183  sh /root/userauto.sh users
+  184  vim /root/userauto.sh
+  185  vim test.sh
+  186  vim /root/userauto.sh
+  187  sh /root/userauto.sh users
+  188  vim /root/userauto.sh
+  189  sh /root/userauto.sh users
+  190  vim /root/userauto.sh
+  191  sh /root/userauto.sh users
+  192  vim /root/userauto.sh
+  193  vim test.sh
+  194  vim /root/userauto.sh
+  195  sh /root/userauto.sh users
+  196  vim users
+  197  sh /root/userauto.sh users
+  198  vim /etc/passwd
+  199  vim /root/userauto.sh
+  200  vim /etc/passwd
+  201  man /sbin/nologin
+  202  vim /root/userauto.sh
+  203  vim users
+  204  sh /root/userauto.sh users
+  205  vim /etc/passwd
+  206  vim /root/userauto.sh
+  207  su - rohit12345
+  208  vim users
+  209  su - rohit1234
+  210  vim /root/userauto.sh
+  211  cp users users1
+  212  ls
+  213  vim users1
+  214  cp users /test
+  215  sh /root/userauto.sh test
+  216  sh /root/userauto.sh /test
+  217  cd /
+  218  ls
+  219  cd test
+  220  ls
+  221  cd ..
+  222  ls
+  223  rm test
+  224  rm /test
+  225  rmdir /test
+  226  rmdir test
+  227  rmdir -rvf test
+  228  rmdir -vf test
+  229  rmdir -v test
+  230  rmdir -v /test
+  231  rm -rvf /test
+  232  ls
+  233  cd ../..
+  234  cd ~
+  235  ls
+  236  ip a
+  237  history
+  238  ls
+  239  ls /
+  240  cd /test
+  241  ls
+  242  reboot
+  243  df -h
+  244  su - rohit
+  245  vim /etc/fstab
+  246  umount /test
+  247  df -ht
+  248  df -h
+  249  vim /etc/fstab 
+  250  mount -a
+  251  df -h
+  252  su - rohit
+  253  umount /test
+  254  df -h
+  255  mount -a
+  256  df -h
+  257  su - rohit
+  258  umount /test
+  259  df -h
+  260  vim /etc/fstab 
+  261  mount -a
+  262  df -h
+  263  su - rohit
+  264  umount /test
+  265  df -h
+  266  cd /
+  267  ls
+  268  df -h
+  269  vim /etc/fstab 
+  270  mount -a
+  271  df -h
+  272  mount -a
+  273  vim /etc/fstab 
+  274  mount -a
+  275  df -h
+  276  cd /test
+  277  ls
+  278  cd /
+  279  ls
+  280  cd /test
+  281  ls
+  282  df 0h
+  283  df -h
+  284  mount -a
+  285  vim /etc/fstab 
+  286  mount -a
+  287  cat /etc/hosts
+  288  vim /etc/hosts
+  289  ip a
+  290  vim /etc/hosts
+  291  mount -a
+  292  cd /
+  293  df -h
+  294  mount -a
+  295  vim /etc/fstab 
+  296  umount /concert
+  297  umount /test
+  298  mount /concert
+  299  mount /test
+  300  reboot
+  301  cat /etc/exports
+  302  mount /test
+  303  fdisk -l
+  304  qstat
+  305  awux
+  306  pid
+  307  ip a
+  308  vim /etc/fstab
+  309  mkdir -p /rohit/rowdy
+  310  cd /rohit/rowdy/
+  311  ls
+  312   cat > test.txt
+  313  cat test.txt 
+  314  ls
+  315  cd /rohit
+  316  ls
+  317  cd rowdy
+  318  ls
+  319  cat test.txt 
+  320  ls
+  321  cat hello.txt 
+  322  cat > hello1.txt 
+  323  ls
+  324  cat hello1
+  325  cat hello1.txt 
+  326  cd /test
+  327  ls
+  328  df -h
+  329  mount -a
+  330  vim /etc/fstab 
+  331  mount -a
+  332  man mount.cifs
+  333  ip a
+  334  vim /etc/hosts
+  335  vim /etc/fstab
+  336  ip a
+  337  vim /etc/hosts
+  338  curl server1.example.com
+  339  ip a
+  340  firewall-cmd --list-all
+  341  firewall-cmd --permanent --add-service=http
+  342  firewall-cmd --reload
+  343  firewall-cmd --list-all
+  344  curl http://www1.example1.com
+  345  curl www1.example1.com
+  346  vim /etc/hosts
+  347  curl www1.example1.com
+  348  openssl genrsa -out key.pem 2048
+  349  ls
+  350  openssl req -new -key key.pem -out req.csr
+  351  openssl req -in req csr -noout -text
+  352  openssl req -in req.csr -noout -text
+  353  openssl x509 -req -in req.csr -signkey key.pem -days 365 -out ca.cr  t
+  354  rm req.csr
+  355  chmod 600 key.pem
+  356  yum install mod_ssl httpd
+  357  ls
+  358  openssl x509 -req -in req.csr -signkey key.pem -days 365 -out ca.cr  
+  359  openssl x509 -req -in req.csr -signkey key.pem -days 365 -out ca.crt
+  360  ls
+  361  openssl req -in req.csr -noout -text
+  362    openssl req -new -key key.pem -out req.csr
+  363  openssl req -in req.csr -noout -text
+  364  openssl x509 -req -in req.csr -signkey key.pem -days 365 -out ca.cr  t
+  365  openssl x509 -req -in req.csr -signkey key.pem -days 365 -out ca.crt
+  366  ls
+  367  chmod 600 key.pem
+  368  history 
+  369   cd /etc/httpd/conf.d/
+  370  ls
+  371  vim ssl.conf 
