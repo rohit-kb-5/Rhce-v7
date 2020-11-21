@@ -1,0 +1,807 @@
+  vim /etc/samba/smb.conf
+   10  testparm -t
+   11  ip a
+   12  firewall-cmd --reload
+   13  systemctl restart smb nmb
+   14  systemctl enable smb nmb
+   15  vim /etc/samba/smb.conf
+   16  testparm -t
+   17  systemctl restart smb nmb
+   18  vim /etc/samba/smb.conf
+   19  testparm -t
+   20  vim /etc/samba/smb.conf
+   21  testparm -t
+   22  systemctl restart smb nmb
+   23  vim /etc/samba/smb.conf
+   24  testparm -t
+   25  vim /etc/samba/smb.conf
+   26  testparm -t
+   27  systemctl restart smb nmb
+   28  firewall-cmd --reload
+   29  getsebool -a | grep samba
+   30  semanage fcontext -a -t samba_share_t /rohit
+   31  ls -Zd /rohit
+   32  vim /etc/samba/smb.conf
+   33  vim /etc/fstab
+   34  vim /etc/samba/smb.conf
+   35  ls -Zd /rohit
+   36  ls /rohit
+   37  cat /etc/samba/smb.conf
+   38  ls -Zd /rohit
+   39  ls /rohit
+   40  hostname
+   41  reboot
+   42  cat /etc/samba/smb.conf
+   43  ls -Zd /rohit
+   44  ls /rohit
+   45  vim /etc/samba/smb.conf
+   46  cat /etc/samba/smb.conf
+   47  ls -Zd /rohit
+   48  ls /rohit
+   49  vim /etc/samba/smb.conf
+   50  systemctl restart smb nmb
+   51  systemctl enable smb nmb
+   52  firewall-cmd --reload
+   53  ls /rohit
+   54  vim /etc/samba/smb.conf
+   55  testparm -t
+   56  firewall-cmd --permanent -add-service=samba
+   57  firewall-cmd --permanent --add-service=samba
+   58  firewall-cmd --reload
+   59  systemctl restart smb nmb
+   60  systemctl enable  smb nmb
+   61  testparm -t
+   62  ip a
+   63  vim /etc/samba/smb.conf
+   64  systemctl restart smb nmb
+   65  vim /etc/samba/smb.conf
+   66  systemctl restart smb nmb
+   67  firewall-cmd --reload
+   68  ls
+   69  ls /
+   70  cd rohit
+   71  cd /rohit
+   72  ls
+   73  vim /etc/samba/smb.conf
+   74  testparm -t
+   75  su rowdy
+   76  systemctl restart smb nmb
+   77  systemctl enable smb nmb
+   78  df -hT
+   79  reboot
+   80  cat /etc/samba/smb.conf
+   81  ls -Zd /rohit
+   82  ls /rohit
+   83  vim /etc/samba/smb.conf
+   84  cat /etc/samba/smb.conf
+   85  ls -Zd /rohit
+   86  ls /rohit
+   87  vim /etc/samba/smb.conf
+   88  systemctl restart smb nmb
+   89  systemctl enable smb nmb
+   90  firewall-cmd --reload
+   91  ls /rohit
+   92  vim /etc/samba/smb.conf
+   93  testparm -t
+   94  firewall-cmd --permanent -add-service=samba
+   95  firewall-cmd --permanent --add-service=samba
+   96  firewall-cmd --reload
+   97  systemctl restart smb nmb
+   98  systemctl enable  smb nmb
+   99  testparm -t
+  100  ip a
+  101  vim /etc/samba/smb.conf
+  102  systemctl restart smb nmb
+  103  vim /etc/samba/smb.conf
+  104  systemctl restart smb nmb
+  105  firewall-cmd --reload
+  106  ls
+  107  ls /
+  108  cd rohit
+  109  cd /rohit
+  110  ls
+  111  vim /etc/samba/smb.conf
+  112  testparm -t
+  113  su rowdy
+  114  systemctl restart smb nmb
+  115  systemctl enable smb nmb
+  116  df -hT
+  117  reboot
+  118  cat /etc/samba/smb.conf
+  119  ls -Zd /rohit
+  120  ls /rohit
+  121  vim /etc/samba/smb.conf
+  122  cat /etc/samba/smb.conf
+  123  ls -Zd /rohit
+  124  ls /rohit
+  125  vim /etc/samba/smb.conf
+  126  systemctl restart smb nmb
+  127  systemctl enable smb nmb
+  128  firewall-cmd --reload
+  129  ls /rohit
+  130  vim /etc/samba/smb.conf
+  131  testparm -t
+  132  firewall-cmd --permanent -add-service=samba
+  133  firewall-cmd --permanent --add-service=samba
+  134  firewall-cmd --reload
+  135  systemctl restart smb nmb
+  136  systemctl enable  smb nmb
+  137  testparm -t
+  138  ip a
+  139  vim /etc/samba/smb.conf
+  140  systemctl restart smb nmb
+  141  vim /etc/samba/smb.conf
+  142  systemctl restart smb nmb
+  143  firewall-cmd --reload
+  144  ls
+  145  ls /
+  146  cd rohit
+  147  cd /rohit
+  148  ls
+  149  vim /etc/samba/smb.conf
+  150  testparm -t
+  151  su rowdy
+  152  systemctl restart smb nmb
+  153  systemctl enable smb nmb
+  154  df -hT
+  155  reboot
+  156  cat /etc/samba/smb.conf
+  157  ls -Zd /rohit
+  158  ls /rohit
+  159  vim /etc/samba/smb.conf
+  160  cat /etc/samba/smb.conf
+  161  ls -Zd /rohit
+  162  ls /rohit
+  163  vim /etc/samba/smb.conf
+  164  systemctl restart smb nmb
+  165  systemctl enable smb nmb
+  166  firewall-cmd --reload
+  167  ls /rohit
+  168  vim /etc/samba/smb.conf
+  169  testparm -t
+  170  firewall-cmd --permanent -add-service=samba
+  171  firewall-cmd --permanent --add-service=samba
+  172  firewall-cmd --reload
+  173  systemctl restart smb nmb
+  174  systemctl enable  smb nmb
+  175  testparm -t
+  176  ip a
+  177  vim /etc/samba/smb.conf
+  178  systemctl restart smb nmb
+  179  vim /etc/samba/smb.conf
+  180  systemctl restart smb nmb
+  181  firewall-cmd --reload
+  182  ls
+  183  ls /
+  184  cd rohit
+  185  cd /rohit
+  186  ls
+  187  vim /etc/samba/smb.conf
+  188  testparm -t
+  189  su rowdy
+  190  systemctl restart smb nmb
+  191  systemctl enable smb nmb
+  192  df -hT
+  193  reboot
+  194  nmcli connection show
+  195  vim nmcli connection show
+  196  nmcli connection show
+  197  ip a
+  198  rpm -q httpd
+  199  yum install httpd -y
+  200  yum install mod_wsgi -y
+  201  cat /home/student/webapp.wsgi
+  202  cd /home
+  203  ls
+  204  cd admin
+  205  ls
+  206  cd /
+  207  ls
+  208  grep webapp.wsgi /
+  209  grep webapp.wsgi 
+  210  lab nfskrb5 setup
+  211  nmcli connection show
+  212  vim /etc/sysconfig/network-scripts/ifcfg-eth0
+  213  vim /etc/postfix/main.cf 
+  214  yum install samba samba-client
+  215  man smbgroup
+  216  man samba
+  217  mkdir /concert
+  218  semanage fcontext -a -t samba_share_t /concert
+  219  restorecon -Rv /concert
+  220  ls -Zd /concert/
+  221  useradd samual
+  222  useradd mitchel
+  223  useradd catherine
+  224  smbpasswd -a mitchel
+  225  smbpasswd -a catherine
+  226  mkdir /dockyard
+  227  setfacl -m u:mitchel:rw /dockyard
+  228  setfacl -m u:catherine:r-- /dockyard
+  229  getsebool -a |grep samba
+  230  vim /etc/samba/smb.conf
+  231  rpm -q mod_wsgi 
+  232  nmcli connection show
+  233  nmcli dev show
+  234  nmcli dev status
+  235  ip a
+  236  ls
+  237  cd /home
+  238  ls
+  239  cd rohit
+  240  ls
+  241  vim webapp.wsgi
+  242  cp /usr/share/doc/httpd-2.4.6/httpd-vhosts.conf /etc/httpd/conf.d/test.conf
+  243  vim /etc/httpd/conf.d/test.conf
+  244  vim /etc/hosts
+  245  ip a
+  246  vim /etc/hosts
+  247  hostname
+  248  hostnamectl set-hostname server1.example.com
+  249  hostname
+  250  cp /home/rohit/webapp.wsgi /var/www/dynamic
+  251  ls
+  252  cd /var/www
+  253  ls
+  254  cat dynamic
+  255  cd ..
+  256  cd /
+  257  httpd -t
+  258  mkdir /var/www/dynamic
+  259  httpd -t
+  260  vim /etc/httpd/conf.d/test.conf
+  261  ls
+  262  cd var
+  263  ls
+  264  cd kerberos/
+  265  ls
+  266  cd krb5/
+  267  ls
+  268  cd user
+  269  ls
+  270  cd /
+  271  cd /var/www/
+  272  ls
+  273  vim dynamic
+  274  cp /home/rohit/webapp.wsgi /var/www/dynamic/
+  275  ls
+  276  rm dynamic 
+  277  ls
+  278  cp /home/rohit/webapp.wsgi /var/www/dynamic/
+  279  mkdir /var/www/dynamic/
+  280  ls
+  281  cp /home/rohit/webapp.wsgi /var/www/dynamic/
+  282  ls
+  283  cd dynamic/
+  284  ls
+  285  httpd -t
+  286  systemctl restart httpd
+  287  reboot
+  288  hostname
+  289  httpd -t
+  290  vim /etc/httpd/conf.d/test.conf
+  291  httpd -t
+  292  systemctl restart httpd
+  293  systemctl enable httpd
+  294  firewall-cmd --permanent -add-service=http
+  295  firewall-cmd --permanent -add-service=httpd
+  296  firewall-cmd --permanent --add-service=http
+  297  firewall-cmd --permanent --add-service=httpd
+  298  firewall-cmd --reload
+  299  history
+  300  vim /etc/httpd/conf.d/test.conf
+  301  systemctl restart httpd
+  302  firewall-cmd --reload
+  303  httpd -t
+  304  vim /etc/httpd/conf.d/test.conf
+  305  systemctl restart httpd
+  306  vim /etc/httpd/conf.d/test.conf
+  307  systemctl restart httpd
+  308  systemctl restart conf.d
+  309  systemctl restart conf
+  310  systemctl restart conf.d
+  311  vim /etc/httpd/conf.d/test.conf
+  312  systemctl restart httpd
+  313  vim /etc/httpd/conf.d/test.conf
+  314  systemctl restart httpd
+  315  vim /etc/httpd/conf.d/test.conf
+  316  systemctl restart httpd
+  317  vim /etc/httpd/conf.d/test.conf
+  318  systemctl restart httpd
+  319  vim /etc/httpd/conf.d/test.conf
+  320  systemctl restart httpd
+  321  vim /etc/httpd/conf.d/test.conf
+  322  systemctl restart httpd
+  323  ls
+  324  cd /var/www/dynamic/
+  325  ls
+  326  vim webapp.wsgi 
+  327  cd ..
+  328  ls
+  329  cd html/
+  330  ls
+  331  vim /etc/hosts
+  332  systemctl restart httpd
+  333  vim /etc/httpd/conf.d/test.conf
+  334  systemctl restart httpd
+  335  vim /etc/httpd/conf.d/test.conf
+  336  systemctl restart httpd
+  337  reboot
+  338  systemctl restart httpd
+  339  vim /etc/httpd/conf.d/test.conf
+  340  vim /etc/hosts
+  341  systemctl restart httpd
+  342  vim /etc/httpd/conf.d/test.conf
+  343  systemctl restart httpd
+  344  vim /etc/httpd/conf.d/test.conf
+  345  systemctl restart httpd
+  346  vim /etc/httpd/conf.d/test.conf
+  347  systemctl restart httpd
+  348  ip a
+  349  vim /etc/hosts
+  350  systemctl restart httpd
+  351  vim /etc/hosts
+  352  vim /etc/httpd/conf.d/test.conf
+  353  systemctl restart httpd
+  354  vim /etc/httpd/conf.d/test.conf
+  355  systemctl restart httpd
+  356  vim /etc/httpd/conf.d/test.conf
+  357  systemctl restart httpd
+  358  vim /etc/httpd/conf.d/test.conf
+  359  systemctl restart httpd
+  360  vim /etc/httpd/conf.d/test.conf
+  361  systemctl restart httpd
+  362  vim /etc/hosts
+  363  systemctl restart httpd
+  364  vim /etc/hosts
+  365  vim /etc/httpd/conf.d/test.conf
+  366  vim /etc/hosts
+  367  systemctl restart httpd
+  368  vim /etc/hosts
+  369  vim /etc/httpd/conf.d/test.conf
+  370  vim /etc/hosts
+  371  systemctl restart httpd
+  372  vim /etc/httpd/conf.d/test.conf
+  373  systemctl restart httpd
+  374  vim /etc/hosts
+  375  systemctl restart httpd
+  376   semanage port -l | grep http
+  377  semanage port -a -t http_port_t -p tcp 8998
+  378   semanage port -l | grep http
+  379  firewall-cmd --permanent --add-serport=8998/tcp
+  380  firewall-cmd --permanent --add-port=8998/tcp
+  381   semanage port -l | grep http
+  382  firewall-cmd --reload
+  383  systemctl restart httpd
+  384    firewall-cmd --permanent --add-rich-rule "rule family="ipv4" source address="0.0.0.0/0" forward-port  to-port="80" protocol="tcp" port="8998""
+  385  firewall-cmd --reload
+  386  vim /etc/httpd/conf.d/test.conf
+  387  firewall-cmd --reload
+  388  systemctl restart httpd
+  389  vim /etc/httpd/conf.d/test.conf
+  390  systemctl restart httpd
+  391  vim /etc/httpd/conf.d/test.conf
+  392  systemctl restart httpd
+  393  systemctl status https
+  394  systemctl status httpd
+  395  systemctl enable httpd
+  396  systemctl status httpd
+  397  systemctl restart httpd
+  398  vim /etc/httpd/conf.d/test.conf
+  399  systemctl restart httpd
+  400  vim /etc/httpd/conf.d/test.conf
+  401  systemctl restart httpd
+  402  vim /etc/httpd/conf.d/test.conf
+  403  systemctl restart httpd
+  404  ss -tunlp | grep 80
+  405  ss -tunlp | grep 8998
+  406  firewall-cmd --permanent --add-port=8998/tcp
+  407  firewall-cmd --reload
+  408  ss -tunlp | grep 8998
+  409   firewall-cmd --permanent --add-rich-rule "rule family="ipv4" source address="0.0.0.0/0" forward-port  to-port="80" protocol="tcp" port="8998""
+  410  semanage port -a
+  411  semanage port -l | grep httpd
+  412  semanage port -l | grep http
+  413  vim /etc/httpd/conf.d/test.conf
+  414  vim /etc/httpd/conf
+  415  vim /etc/httpd/conf.d
+  416  vim /etc/httpd/
+  417  cd /etc/httpd
+  418  ls
+  419  cd conf
+  420  ls
+  421  vim httpd.conf 
+  422  systemctl restart httpd
+  423  systemctl status httpd
+  424  systemctl restart httpd
+  425  vim /etc/httpd/conf.d
+  426  vim /etc/httpd/conf.d/test.conf
+  427  systemctl restart httpd
+  428  vim /etc/httpd/conf.d/test.conf
+  429  systemctl restart httpd
+  430  vim /etc/httpd/conf.d/test.conf
+  431  vim /etc/hosts
+  432  vim /etc/httpd/conf.d/test.conf
+  433  systemctl restart httpd
+  434  history
+  435  vim /etc/httpd/conf.d/test.conf
+  436  nmcli connection show
+  437  cd /
+  438  cat /etc/sysconfig/network-scripts/ifcfg-ens33
+  439  systemctl restart network
+  440  systemctl status network
+  441  systemctl restart network
+  442  systemctl enable network
+  443  systemctl status network
+  444  systemctl restart network
+  445  nmcli connection modify "ens33" ipv6.addresses "fe80::5054:fe00:ff:a1/64"
+  446  nmcli connection modify "ens33" ipv6.method static
+  447  nmcli connection down "ens33" ; nmcli connection up "ens33"
+  448  ip a
+  449  ping6 fe80::5054:fe00:ff:a1/64
+  450  ping6 fe80::5054:fe00:ff:a1
+  451  ping6 fe80::5054:fe00:ff:a1:64
+  452  ping6 fe80::5054:fe00:ff:64
+  453  ping6 fe80::5054:fe00:ff:a1
+  454  ping6 fe80::5054:fe00:ff:a1:64
+  455  systemctl restart network
+  456  nmcli connection show
+  457  cat /etc/sysconfig/network-scripts/ifcfg-ens33
+  458  ping6 fe80::5054:fe00:ff:a1/64
+  459  ip a
+  460  nmcli connection modify "ens33" ipv6.addresses "fe80::5054:fe00:ff:b1/64 "
+  461  cat /etc/sysconfig/network-scripts/ifcfg-ens33
+  462  nmcli connection modify "ens33" ipv6.addresses "fe80::5054:fe00:ff:a1/64 fe80::5054:fe00:ff:b1/64 "
+  463  nmcli connection modify "ens33" ipv6.addresses "fe80::5054:fe00:ff:a1/64 "
+  464  cat /etc/sysconfig/network-scripts/ifcfg-ens33
+  465  getenforce
+  466  vim /etc/sysconfig/selinux 
+  467  setenforce 1
+  468  getenforce
+  469  setenforce 0
+  470  getenforce
+  471  vim /etc/sysconfig/selinux 
+  472  setenforce 
+  473  setenforce 1
+  474  getenforce
+  475  vim /etc/sysconfig/selinux 
+  476  echo "sshd: *.myelit.org" >> /etc/hosts.deny
+  477  vim /etc/hosts
+  478  vim /etc/hosts.deny
+  479  nmcli connection  add type team con-name team0 ifname team0 config
+  480  nmcli connection  add type team con-name team0 ifname team0 config '{"runner":{"name": "activebackup"}}'
+  481  nmcli connection modify team0 ipv4.addresses '192.168.1.25/24' ipv4.method manual connection.autocoonect yes
+  482  nmcli connection modify team0 ipv4.addresses '192.168.1.25/24' ipv4.method manual connection.autoconnect yes
+  483  nmcli connection add type team-slave con-name team0-slave1 ifname eno- master team0
+  484  nmcli connection add type team-slave con-name team0-slave2 ifname eno- master team0
+  485  teamdctl team0 state
+  486  nmcli connection up team0-slave1
+  487  nmcli connection modify team0 ipv4.addresses '192.168.1.25/24' ipv4.method static connection.autocoonect yes
+  488  nmcli connection modify team0 ipv4.addresses '192.168.1.25/24' ipv4.method static connection.autoconnect yes
+  489  nmcli connection up team0-slave1
+  490  nmcli connection show
+  491  nmcli connection up team0-slave1
+  492  nmcli connection down team0-slave1
+  493  nmcli connection down team0; nmcli connection up team0
+  494  nmcli connection down team0-slave1
+  495  nmcli connection up team0-slave1
+  496  nmcli connection show
+  497  q
+  498  teamdctl team0 state
+  499  ip a
+  500  nmcli connection add type team-slave con-name team0-slave2 ifname eno33554992 master team0
+  501  nmcli connection show
+  502  nmcli connection up team0-slave2
+  503  nmcli connection remove type team-slave con-name team0-slave2 ifname eno33554992 master team0
+  504  nmcli connection delete type team-slave con-name team0-slave2 ifname eno33554992 master team0
+  505  nmcli connection show
+  506  nmcli connection delete type team-slave con-name team0-slave1 ifname eno33554992 master team0
+  507  nmcli connection show
+  508  man nmcli
+  509  nmcli connection show
+  510  rht-vmctl reset all
+  511  firewall-cmd --list-all
+  512  hostnamae
+  513  hostname
+  514  yum install smb nmb -y
+  515  kill -9 22270
+  516  yum install smb nmb -y
+  517  yum install samba
+  518  rpm -q samba
+  519  yum install httpd -y
+  520  firefox
+  521  yum install samba-client -y
+  522  cat /etc/yum.repo
+  523  cat /etc/yum.repos.d/
+  524  cat /etc/yum.repos./epel.repo
+  525  cat /etc/yum.repos.d/epel.repo
+  526  mkdir /concert
+  527  ls
+  528  ls /
+  529  cd con
+  530  cd /concert/
+  531  ls
+  532  cd /
+  533  vim /etc/samba/smb.conf
+  534  grep samual /etc/passwd
+  535  smbpasswd -a samual
+  536  grep mitchel /etc/passwd
+  537  grep catherine /etc/passwd
+  538  getfacl mitchel
+  539  getfacl dockyard
+  540  history
+  541  testparm -t
+  542  systemctl restart smb nmb
+  543  systemctl enable smb nmb
+  544  ip a
+  545  vim /etc/hosts
+  546  cd /concert
+  547  ls
+  548  touch rohit
+  549  cat > rohit
+  550  ls
+  551  vim /etc/samba/smb.conf
+  552  getfacl /concert
+  553  systemctl restart smb nmb
+  554  systemctl enable smb nmb
+  555  ssh root@192.168.233.147
+  556  reboot
+  557  ssh root@192.168.233.147
+  558  reboot
+  559  ssh root@192.168.233.147
+  560  ip a
+  561  vim /etc/hosts
+  562  systemctl restart smb nmb
+  563  systemctl enable smb nmb
+  564  ssh root@192.168.233.147
+  565  testparm -t
+  566  systemctl restart smb nmb
+  567  systemctl enable smb nmb
+  568  vim /etc/samba/smb.conf
+  569  systemctl restart smb nmb
+  570  systemctl enable smb nmb
+  571  systemctl restart smb nmb
+  572  systemctl enable smb nmb
+  573  systemctl restart smb nmb
+  574  systemctl enable smb nmb
+  575  systemctl restart smb nmb
+  576  systemctl enable smb nmb
+  577  getfacl /concert
+  578  setfacl -m u:rw samual  /concert
+  579  setfacl -m u:samual:rw  /concert
+  580  getfacl /concert
+  581  systemctl restart smb nmb
+  582  systemctl enable smb nmb
+  583  getfacl /concert
+  584  vim /etc/samba/smb.conf
+  585  systemctl restart smb nmb
+  586  systemctl enable smb nmb
+  587  vim /etc/samba/smb.conf
+  588  cat /etc/exports
+  589  yum install mariadb-client* -y
+  590  yum groupinstall mariadb-client* -y
+  591  systemctl restart mariadb
+  592  rpm -q mariadb
+  593  systemctl restart mariadb
+  594  systemctl enable mariadb
+  595  mysql_secure_installation
+  596  mysql -uroot
+  597   vi $HOME/.bashrc
+  598  vi /etc/bashrc
+  599  ps -eo pid
+  600  ps qstat
+  601  qstat
+  602  su - rohit
+  603  vi /etc/bashrc
+  604  ps -tid
+  605  ps tid
+  606  ps -eo tid
+  607  ps -eo class
+  608  ps -eo rtprio
+  609  ps -eo ni
+  610  su - rohit
+  611  su - samual
+  612  vi /etc/bashrc
+  613  su - rohit
+  614  vi /etc/bashrc
+  615  nmcli connection show 
+  616  nmcli connection add type team con-name india ifname india config'{"runner":{"name":"activebackup"}}'
+  617  nmcli connection add type team con-name india ifname india config'{"runner":{"name": "activebackup"}}'
+  618  cd /
+  619  nmcli connection add type team con-name india ifname india config'{"runner":{"name": "activebackup"}}'
+  620  nmcli connection add type team con-name india ifname india config '{"runner":{"name": "activebackup"}}'
+  621  nmcli connection add type team-slave con-name slave1 ifname eno1 master india
+  622  nmcli connection add type team-slave con-name slave2 ifname eno2 master india
+  623  nmcli connection show 
+  624  teamdctl india state
+  625  nmcli connection modify india ipv4.addresses "192.168.1.25/24"
+  626  nmcli connection modify india ipv4.method static
+  627  nmcli connection show 
+  628  teamdctl india state
+  629  nmcli connection down india; nmcli connection up india
+  630  teamdctl india state
+  631  nmcli connection show 
+  632  nmcli connection up slave1
+  633  nmcli connection down slave1
+  634  nmcli connection show 
+  635  teamdctl india state
+  636  nmcli connection up slave1
+  637  lab teambridge setup
+  638  history
+  639  nmcli connection show 
+  640  history
+  641  firewall-cmd --permanent --add-rich-rule "rule family="ipv4" source address="192.168.12.0/24" reject " 
+  642  firewall-cmd --reload
+  643  firewall-cmd --list-all
+  644  history
+  645  getenforce
+  646  vim /etc/sysconfig/selinux 
+  647  getenforce
+  648  vim /etc/sysconfig/selinux 
+  649  setenforce 0
+  650  getenforce
+  651  reboot
+  652  getenforce
+  653  setenforce 1
+  654  getenforce
+  655  reboot
+  656  getenforce
+  657  setenforce 1
+  658  getenforce
+  659  vim /etc/sysconfig/selinux 
+  660  getenforce
+  661  reboot
+  662  getenforce
+  663  yum install nfs-server
+  664  yum whatif nfs-server
+  665  yum install nfs-utils
+  666  ip a
+  667  vim /etc/hosts
+  668  vim /etc/hosts.allow 
+  669  vim /etc/hosts.conf
+  670  vim /etc/host.conf
+  671  vim /etc/conf
+  672  vim /etc/hosts.deny 
+  673  mkdir /rohit/rowdy
+  674  cd /rohit
+  675  ls
+  676  cd /
+  677  mkdir /rowdy/rohit/
+  678  ls /rohit
+  679  cd row
+  680  cd rowdy
+  681  cd /rowdy
+  682  cd rohit/rowdy
+  683  ls
+  684  cd..
+  685  cd ..
+  686  ls
+  687  cd /
+  688  ls
+  689  cd rohit
+  690  ls
+  691  cd ..
+  692  rmdir rohit
+  693  rmdir -f rohit
+  694  rm -f rohit
+  695  rm -rf rohit
+  696  ls
+  697  vim /etc/fstab
+  698  cd /etc
+  699  /
+  700  cd /etc
+  701  ls
+  702  cd /etc/krb5.conf.d/
+  703  ls
+  704  ip a
+  705  cd /
+  706  history
+  707  vim /etc/samba/smb.conf
+  708  vim /etc/fstab
+  709  vim /etc/postfix/main.cf 
+  710  touch /rohit/rowdy
+  711  touch /rohit/rowdy/
+  712  mkdir /rohit/rowdy/
+  713  mkdir /rohit/rowdy
+  714  mkdir -p /rohit/rowdy
+  715  cd /rohit/rowdy/
+  716  ls
+  717  cat > test.txt
+  718  l
+  719  ls
+  720  cat test.txt 
+  721  cd /
+  722  scp /rohit/rowdy/test.txt root@desktop1.example.com:/rohit/rowdy/
+  723  cat > test.txt
+  724  cat  test.txt
+  725  scp /rohit/rowdy/test.txt root@desktop1.example.com:/rohit/rowdy/
+  726  cd /rohit/rowdy/
+  727  ls
+  728  cat > hello.txt
+  729  scp /rohit/rowdy/hello.txt root@desktop1.example.com:/rohit/rowdy/
+  730  cat > hello1.txt
+  731  scp /rohit/rowdy/hello1.txt root@desktop1.example.com:/rohit/rowdy/
+  732  cat > hello1.txt
+  733  scp /rohit/rowdy/hello1.txt root@desktop1.example.com:/rohit/rowdy/
+  734  vim /etc/samba/smb.conf
+  735  mount -av
+  736  history -a
+  737  cd /
+  738  history
+  739  man history
+  740  history 
+  741  history %T
+  742  cd /etc/yum.repos.d/
+  743  ls
+  744  vim test.repo
+  745  yum clean all
+  746  kill -9 17962
+  747  yum clean all
+  748  pid
+  749  top
+  750  yum clean all
+  751  yum repolist
+  752  vim /etc/sysconfig/selinux 
+  753  firewall-cmd --permanent --add-rich-rule "rule family="ipv4" source address= "192.168.12.0/24"  service name="ssh" drop"
+  754  firewall-cmd --list-all
+  755  firewall-cmd --permanent --add-rich-rule "rule family="ipv4" source address= "192.168.12.1/24"  service name="ssh" drop"
+  756  firewall-cmd --permanent --add-rich-rule "rule family="ipv4" source address= "192.168.12.1/24"  service name="ssh" reject"
+  757  firewall-cmd --permanent --add-rich-rule "rule family="ipv4" source address= "192.168.12.1/24" service name="ssh" reject"
+  758  firewall-cmd --permanent --add-rich-rule "rule family="ipv4" source address "192.168.12.1/24" service name="ssh" drop"
+  759  firewall-cmd --permanent --add-rich-rule "rule family="ipv4" source address= "192.168.12.1/24" service name="ssh" drop"
+  760  history
+  761  cd /
+  762  yum install httpd -y
+  763  vim /etc/httpd/conf.d/test.conf 
+  764  vim /etc/httpd/conf.d/web.conf 
+  765  vim /etc/hosts
+  766  httpd -t
+  767  cat >/var/www/html/index.html
+  768  systemctl restart httpd
+  769  systemctl enable httpd
+  770  curl www1.example1.com
+  771  vim /etc/httpd/conf.d/web.conf 
+  772  vim /etc/hosts
+  773  systemctl restart httpd
+  774  curl www1.example1.com
+  775  mkdir /var/www/pratice
+  776  cat >/var/www/pratice/
+  777  cat >/var/www/pratice/index.html
+  778  vim /etc/httpd/conf.d/web.conf 
+  779  httpd -t
+  780  systemctl restart httpd
+  781  systemctl enable httpd
+  782  curl server1.example.com
+  783  cd /var/www/html
+  784  ls
+  785  mkdir notes
+  786  lks
+  787  ls
+  788  cd notes/
+  789  touch  note{1..10}
+  790  ls
+  791  vim /etc/httpd/conf.d/web.conf 
+  792  systemctl restart httpd
+  793  systemctl enable httpd
+  794  firewall-cmd --list-all
+  795  systemctl restart httpd
+  796  vim /etc/httpd/conf.d/web.conf 
+  797  curl www1.example1.com
+  798  curl www1.example1.com/notes
+  799  curl www1.example1.com:notes
+  800  curl www1.example1.com/notes
+  801  vim /etc/httpd/conf.d/web.conf 
+  802  systemctl restart httpd
+  803  vim /etc/httpd/conf.d/web.conf 
+  804  systemctl restart httpd
+  805  systemctl enable httpd
+  806  vim /etc/httpd/conf.d/web.conf 
+  807  systemctl restart httpd
+  808  history
+  809  openssl req -in req.csr -noout -text
+  810  ls
+  811  cd /
+  812  history 
+  813  vim /etc/httpd/conf.d/test.conf 
+  814  vim /etc/httpd/
+  815  vim /etc/httpd/conf
